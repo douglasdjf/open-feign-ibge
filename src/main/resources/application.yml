@@ -20,3 +20,7 @@ ibgeLocalidades:
 logging:
   level:
     br.com.openfeign.client.*: DEBUG
+
+
+server:
+  port: 8081
