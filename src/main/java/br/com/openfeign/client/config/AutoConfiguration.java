@@ -3,14 +3,13 @@ package br.com.openfeign.client.config;
 import feign.Logger;
 import feign.RequestInterceptor;
 import feign.auth.BasicAuthRequestInterceptor;
-import feign.form.ContentType;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @EnableConfigurationProperties
-public class IBGEPaisesConfiguration {
+public class AutoConfiguration {
 
     /**
      * Caso precise colocar algo no requeste ou header

@@ -17,6 +17,9 @@ spring:
 ibgeLocalidades:
   url: https://servicodados.ibge.gov.br/api/v1/localidades
 
+microservico:
+     perfil-operation: http://localhost:8080
+
 logging:
   level:
     br.com.openfeign.client.*: DEBUG
