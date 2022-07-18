@@ -18,7 +18,7 @@ ibgeLocalidades:
   url: https://servicodados.ibge.gov.br/api/v1/localidades
 
 microservico:
-     perfil-operation: http://localhost:8080
+     perfil-operation: http://localhost:8081
 
 logging:
   level:
@@ -26,4 +26,4 @@ logging:
 
 
 server:
-  port: 8081
+  port: 8080

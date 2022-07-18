@@ -11,8 +11,7 @@ import java.util.List;
 
 /***
  *
- * Api base de consulta site: https://servicodados.ibge.gov.br/api/docs/localidades
- *  https://servicodados.ibge.gov.br/api/v1/localidades/paises
+ *  Exemplo de conexão para uma api
  */
 
 @FeignClient(name = "perfil-operation",

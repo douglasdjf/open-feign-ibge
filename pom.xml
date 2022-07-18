@@ -8,11 +8,11 @@
 		<version>2.6.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.openfeign</groupId>
-	<artifactId>open-feign</artifactId>
+	<groupId>br.com.openfeignibge</groupId>
+	<artifactId>open-feign-ibge</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>open-feign</name>
-	<description>Projeto que utiliza Spring boot cloud openFeign</description>
+	<name>open-feign-ibge</name>
+	<description>Projeto que utiliza Spring boot cloud openFeign para consultar Api Localidades IBGE</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.2</spring-cloud.version>
@@ -48,7 +48,7 @@
 		<dependency>
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
-			<version>2.4.2</version>
+			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>

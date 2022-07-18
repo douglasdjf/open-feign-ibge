@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "85667502-d01c-4394-bce4-6bb67960ae7c",
+		"name": "OpenFeing-IBGE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4020582"
+	},
+	"item": [
+		{
+			"name": "Municipios Bscar Todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/municipios",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"municipios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paises Buscar Todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/paises",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Regiao Buscar Todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/regioes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"regioes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Municipios Por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/municipios/4300034",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"municipios",
+						"4300034"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Estaodos Buscar Por todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/ufs",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ufs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Estaodos Buscar por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/ufs/12",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ufs",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Todos os Municipios do Estado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/ufs/29/municipios",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ufs",
+						"29",
+						"municipios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
